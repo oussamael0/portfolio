@@ -19,6 +19,6 @@ export const education: Education[] = [
     start: "2023-09",
     end: "2025-07",
     courses: ["Deep Learning", "MLOps", "SIG & IA"],
-    highlights: ["Major de promo", "Projet UAV + CNN"],
+    highlights: ["Bon note en licence ", "Projet UAV + CNN"],
   },
 ];

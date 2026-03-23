@@ -33,8 +33,7 @@ export default function Home() {
           className="mt-6 flex flex-wrap gap-2 text-sm"
           aria-label="badges de parcours"
         >
-          Master IA (2025)
-          AWS SAA
+          Master IA (2025) AWS SAA
         </div>
       </div>
 

@@ -14,7 +14,7 @@ export default function CertificationCard({ c }: { c: Certification }) {
     <article
       className={clsx(
         "border rounded-2xl p-4 hover:shadow transition",
-        isExpired && "opacity-80"
+        isExpired && "opacity-80",
       )}
       aria-label={`Certification ${c.title}`}
     >
@@ -38,9 +38,7 @@ export default function CertificationCard({ c }: { c: Certification }) {
       </p>
 
       {c.skills?.length ? (
-        <p className="mt-2 text-sm">
-          Compétences : {c.skills.join(", ")}
-        </p>
+        <p className="mt-2 text-sm">Compétences : {c.skills.join(", ")}</p>
       ) : null}
 
       <div className="mt-3 flex items-center gap-3 text-sm">
@@ -56,7 +54,9 @@ export default function CertificationCard({ c }: { c: Certification }) {
           </a>
         )}
 
-        {isExpired && <span className="text-red-500 font-semibold">Expirée</span>}
+        {isExpired && (
+          <span className="text-red-500 font-semibold">Expirée</span>
+        )}
         {c.status === "revoked" && (
           <span className="text-red-500 font-semibold">Révoquée</span>
         )}
