@@ -22,7 +22,7 @@ export default function CertificationsPage() {
       <div className="flex items-center justify-between gap-4">
         <h2 className="text-2xl font-semibold">Certifications</h2>
         <input
-          placeholder="Filtrer (ex: AWS, Kubernetes)"
+          placeholder="AWS, Kubernetes"
           value={q}
           onChange={(e) => setQ(e.target.value)}
           className="border rounded-xl px-3 py-2 w-72"

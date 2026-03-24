@@ -1,12 +1,11 @@
 export const profile = {
-  name: "Nom Prénom",
-  role: "Ingénieur Logiciel / Chercheur",
+  name: "OUSSAMA EL MOUEKKEN",
+  role: "DÉVELOPPEUR FULL STACK, Java & React",                
   location: "Marrakech, Maroc",
   email: "prenom.nom@email.com",
   socials: [
-    { label: "GitHub", href: "https://github.com/monhandle" },
-    { label: "LinkedIn", href: "https://www.linkedin.com/in/monhandle" },
+    { label: "GitHub", href: "https://github.com/oussamael0" }
   ],
   about: "IA, SIG, DevSecOps, Android.",
-  skills: ["React", "TypeScript", "Node.js", "Docker", "Kubernetes", "GIS"],
+  skills: ["Java", "React", "TypeScript", "Node.js", "Docker", "Kubernetes", "GIS"],
 };

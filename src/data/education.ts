@@ -1,24 +1,49 @@
 export type Education = {
-  school: string;
   degree: string;
   field?: string;
+  school: string;
   location?: string;
   start: string;
   end?: string;
-  gpa?: string;
   courses?: string[];
   highlights?: string[];
+  gpa?: string;
 };
 
 export const education: Education[] = [
   {
-    school: "Université Cadi Ayyad",
-    degree: "Master",
-    field: "Intelligence Artificielle",
+    degree: "Licence — Systèmes Informatiques Répartis (SIR)",
+    school: "Faculté des Sciences et Techniques de Marrakech",
     location: "Marrakech",
-    start: "2023-09",
-    end: "2025-07",
-    courses: ["Deep Learning", "MLOps", "SIG & IA"],
-    highlights: ["Bon note en licence ", "Projet UAV + CNN"],
+    start: "09/2025",
+    end: "Présent",
+    courses: [
+      "Développement d’applications Web Full Stack",
+      "Gestion des systèmes Linux et administration serveur",
+      "Conception et architecture des systèmes distribués",
+      "Bases de données distribuées et optimisation",
+      "Programmation orientée objet en Java et interfaces graphiques",
+    ],
+    highlights: [
+      "Réalisation de projets intégrant Laravel, React, Node.js et Spring Boot",
+      "Création d’une application Java Swing avec packaging Inno Setup",
+      "Simulation et modélisation de réseaux avec Cisco Packet Tracer",
+    ],
+  },
+  {
+    degree: "DEUST — Informatique",
+    school: "Faculté des Sciences et Techniques de Marrakech",
+    location: "Marrakech",
+    start: "09/2022",
+    end: "06/2025",
+    courses: [
+      "Algorithmique et résolution de problèmes",
+      "Programmation en langage C",
+      "Structures de données avancées avec C",
+    ],
+    highlights: [
+      "Projets pratiques de programmation orientée C",
+      "Approfondissement des concepts de structures et algorithmes",
+    ],
   },
 ];
