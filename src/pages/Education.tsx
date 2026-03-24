@@ -1,7 +1,7 @@
 import { education } from "@/data/education";
 
 function fmt(s?: string) {
-  if (!s) return "Présent";
+  if (!s || s === "Présent") return "Présent";
   const [y, m] = s.split("-");
   return `${m}/${y}`;
 }

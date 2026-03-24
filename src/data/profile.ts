@@ -6,6 +6,6 @@ export const profile = {
   socials: [
     { label: "GitHub", href: "https://github.com/oussamael0" }
   ],
-  about: "IA, SIG, DevSecOps, Android.",
-  skills: ["Java", "React", "TypeScript", "Node.js", "Docker", "Kubernetes", "GIS"],
+  about: "IA, SIG, DevSecOps, Android, Java Spring Boot, Python, React.",
+  skills: ["Java", "Spring Boot", "Python", "React", "TypeScript", "Node.js", "Docker", "Kubernetes", "GIS"],
 };

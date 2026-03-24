@@ -15,7 +15,7 @@ export const education: Education[] = [
     degree: "Licence — Systèmes Informatiques Répartis (SIR)",
     school: "Faculté des Sciences et Techniques de Marrakech",
     location: "Marrakech",
-    start: "09/2025",
+    start: "2025-09",
     end: "Présent",
     courses: [
       "Développement d’applications Web Full Stack",
@@ -34,8 +34,8 @@ export const education: Education[] = [
     degree: "DEUST — Informatique",
     school: "Faculté des Sciences et Techniques de Marrakech",
     location: "Marrakech",
-    start: "09/2022",
-    end: "06/2025",
+    start: "2022-09",
+    end: "2025-06",
     courses: [
       "Algorithmique et résolution de problèmes",
       "Programmation en langage C",
